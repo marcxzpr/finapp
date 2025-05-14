@@ -1,0 +1,30 @@
+.container__banner {
+    display: flex;
+}
+
+.titulo__banner {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 1.2em 0 0 1.8em;
+    line-height: 1.1
+}
+
+.linha-central {
+    display: block;
+    text-align: center;
+}
+
+.linha-central-2 {
+    display: block;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin-top: -1em;
+}
+
+.descricao__banner {
+    padding: 0.9em;
+    font-size: 15px;
+    color: var(--cor-secundaria-texto);
+    font-weight: 400;
+    text-align: center;
+}

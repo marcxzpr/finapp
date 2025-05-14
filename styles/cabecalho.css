@@ -1,0 +1,36 @@
+.container__cabecalho {
+    display: flex;
+}
+
+.finapp_logo-texto {
+    color: var(--cor-principal);
+    font-weight: 650;
+    padding: 0.8em 0 0 0.5em;
+}
+
+.finapp__logo {
+    display: flex;
+    padding: 1.8em 0 0 2.1em;
+}
+
+.logo {
+    height: 2em;
+}
+
+.criar__conta {
+    padding: 2.5em;
+    padding-left: 8em;
+    color: var(--cor-terciaria-texto);
+}
+
+.criar__conta-botao {
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 15px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    white-space: nowrap;
+    color: var(--cor-terciaria-texto);
+    text-decoration: none;
+    font-weight: 300;
+}
