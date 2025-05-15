@@ -1,0 +1,152 @@
+.container__bloco {
+    background-color: #FFFFFF;
+    margin: 1em;
+    height: 36vh;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    margin: 1.37em 2.31em 6em 2.37em;
+}
+
+.bloco__exemplo-titulo {
+    padding: 1.31em 0 0 2.5em;
+    color: var(--cor-secundaria-texto);
+}
+
+.bloco__exemplo-valor {
+    padding: 0.5em 0 0 1.5em;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.valores {
+    padding: 1em 5em;
+    border: 2px solid var(--cor--quartenaria-borda); 
+    border-radius: 50px;      
+    margin: 2em 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nubank__valores {
+    width: 48px;
+    height: 38px;
+    padding: 0 0.5em 0 0;
+    gap: 0.5em;
+}
+
+.nubank__saldo {
+    padding-right: 5em;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.valores__next {
+    margin-top: 0.7em;
+}
+
+.next__valores {
+    height: 32px;
+    padding: 0 0.8em 0 0;
+}
+
+.container__bloco-2 {
+    height: 100vh;
+}
+
+.titulo__container {
+    font-size: 24px;
+    font-weight: bold;
+    white-space: pre-line;
+    text-align: center;
+    padding: 1em;
+}
+
+.descricao__container {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-secundaria-texto)
+}
+
+.container__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__card {
+    padding-left: 1.5em;
+    padding: 2em 0 0 1.5em;
+}
+
+.titulo__card {
+    padding: 2.5em 10em 0em 0.4em;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.descricao__card {
+    padding: 2em;
+    color: var(--cor-secundaria-texto);
+}
+
+.container__bloco-2 {
+    margin: 0 2.31em 0em 2.37em;
+}
+
+.container__bloco-3 {
+    background-color: #FFFFFF;
+    margin: 1em;
+    height: 20vh;
+    width: 32vh;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    margin: 1em 2.31em 6em 2.37em;
+    margin: 3.8em;
+    margin-top: 0.3em;
+}
+
+.titulo__container-3 {
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0.8em 1em 0 1em;
+}
+
+.descricao__container-3 {
+    font-size: 20px;
+    padding: 1em 0 0 3em;
+    color: var(--cor-secundaria-texto);
+}
+
+.container__bloco-4 {
+    justify-items: center;
+}
+
+.titulo__bloco-4 {
+    padding: 0.8em 1em 0 3em;
+    font-weight: 700;
+    font-size: 50px;
+    padding-right: 1.1em;
+    padding-left: 1.7em;
+}
+
+.descricao__bloco-4 {
+    font-size: 20px;
+    padding: 1em 0 0 2em;
+    white-space: nowrap;
+    color: var(--cor-secundaria-texto);
+    padding-right: 1.5em;
+    white-space: nowrap;
+}
+
+.descricao__bloco-5 {
+    font-size: 20px;
+    padding: 1em 0 0 0.8em;
+    white-space: nowrap;
+    color: var(--cor-secundaria-texto);
+}
+
+.criar__conta__botao-2 {
+    margin: 1em;
+}
