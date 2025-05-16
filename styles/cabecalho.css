@@ -34,3 +34,13 @@
     text-decoration: none;
     font-weight: 300;
 }
+
+@media screen and (min-width: 800px) {
+   .criar__conta-botao {
+    display: none;
+   } 
+
+   .finapp__logo {
+    padding-left: 6em;
+   }
+}

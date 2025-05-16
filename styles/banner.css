@@ -40,3 +40,150 @@
     margin-top: -4em;
     color: var(--cor-secundaria-texto);
 }
+
+.titulo__banner2 {
+    display: none;
+}
+
+.descricao__banner--2 {
+    display: none;
+}
+
+.criar-conta__pc {
+    display: none;
+}
+
+.container__bloco-pc {
+    display: none;
+}
+
+.container__bloco-pc2 {
+        display: none;
+    }
+
+.banner-2-pc {
+    display: none;
+}
+
+.banner-3-pc {
+    display: none;
+}
+
+.blocos-3-pc {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .titulo__banner2 {
+        font-size: 50px;
+        font-weight: bold;
+        white-space:  inherit;
+        display: contents;
+    }
+
+    .titulo__banner--2 {
+        padding: 0.4em 0 0 1.8em;;
+    }
+
+    .titulo__banner {
+        display: none;
+    }
+
+    .descricao__banner {
+        display: none;
+    }
+
+    .descricao__banner--2 {
+        display: contents;
+        color: var(--cor-secundaria-texto);
+    }
+
+    .descricao__banner---2 {
+        white-space: inherit;
+        padding-left: 5.6em;
+        padding-top: 2em;
+    }
+
+    .criar-conta__pc {
+        display: contents;
+    }
+
+    .criar__conta-botao--3 {
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 15px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    white-space: nowrap;
+    color: var(--cor-terciaria-texto);
+    text-decoration: none;
+    font-weight: 300;
+    }
+
+    .criar__conta--3 {
+        padding-top: 3em;
+        padding-left: 5.5em;
+    }
+
+    .container__bloco {
+        display: contents;
+    }
+
+    .container__bloco-pc {
+        display: contents;
+    }
+
+    .container__bloco {
+        display: none;
+    }
+
+    .bloco__exemplo-pc img {
+        margin-left: 54em;
+        margin-top: -20em;
+        height: 25em;    
+        object-fit: contain;
+    }
+
+    .container__bloco-pc2 {
+        display: contents;
+    }
+
+    .banner-2-pc {
+        display: contents;
+    }
+
+    .banner-2-pc-titulo {
+        font-size: 36px;
+        font-weight: bold;
+        white-space: pre-line;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .banner-3-pc {
+        display: contents;
+    }
+
+    .banner-3-pc-descricao {
+        margin-top: -7em;
+        color: var(--cor-secundaria-texto);
+        text-align: center;
+    }
+
+    .blocos-3-pc {
+        display: contents;
+    }
+
+    .lista-3--pc {
+        display: flex;
+        flex-direction: row;
+        margin-top: 6em;
+        justify-content: center;
+    }
+
+    .criar-novo-botao {
+        margin-left: 32.5em;
+    }
+}

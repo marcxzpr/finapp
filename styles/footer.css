@@ -23,3 +23,83 @@
 .logo__lista {
      justify-content: flex-start;
 }
+
+.rodape-pc {
+    display: none;
+}
+
+.servicos {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .rodape {
+        display: none;
+    }
+
+    .rodape-pc {
+        display: contents;
+    }
+
+    .imagens-rodape-pc {
+        display: flex;
+        margin-left: 74em;
+    }
+
+    .logo-pc-lista {
+        list-style: none;
+    }
+
+    .finapp-logo-pc {
+        display: flex;
+        margin-top: 6em;
+        margin-left: 4em;
+    }
+
+    .logo-pc{
+        width: 4%;
+    }
+
+    .logo-texto-pc {
+        color: var(--cor-principal);
+        font-weight: bold;
+        padding-top: 0.4em;
+        padding-left: 0.4em;
+        font-size: 30px;
+    }
+
+    .redes__sociais-pc {
+        padding-left: 58em;
+        font-weight: bold;
+    }
+
+    .servicos {
+        display: contents;
+        display: flex;
+    }
+
+    .solucoes {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        margin-left: 20em;
+        margin-top: -4em;
+        margin: -4em 0 5em 20em
+    }
+
+    .texto-exemplo {
+        color: var(--cor-secundaria-texto);
+        margin-top: 1em;
+        font-weight: 400;
+    }
+
+    .solucoes-2 {
+       font-weight: bold;
+        margin: -4em 0 5em 10em
+    }
+
+    .solucoes-3 {
+        font-weight: bold;
+        margin: -4em 0 5em 10em
+    }
+}
