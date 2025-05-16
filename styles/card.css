@@ -1,0 +1,87 @@
+.new-container__card {
+    background-color: var(--cor-principal);
+    margin: 1em;
+    height: 110vh;
+    border-radius: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    margin: 1.37em 1em 6em 2em;
+    width: 85%;
+}
+
+.card-base {
+    display: flex;
+    text-align: center;
+}
+
+.card__titulo-new {
+    color: var(--cor-terciaria-texto);
+    font-size: 16px;
+    white-space: inherit;
+    padding: 2em;
+    font-weight: bold;
+}
+
+.card__descricao-new {
+    color: var(--cor-para-card);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 0 1em;
+}
+
+.new__card {
+    background-color: rgba(175, 139, 237, 0.854);
+    width: 80%;
+    height: 22vh;
+    border-radius: 26px;
+    margin: 2em 0 0 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.new__cardtitulo {
+    color: var(--cor-terciaria-texto);
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0.5em 0.4em;
+}
+
+.card-subtitulo {
+    color: var(--cor-terciaria-texto);
+    font-size: 20px;
+    padding: 2em 0 5em 0;
+    white-space: nowrap;
+}
+
+.new__card__descricao {
+    color: var(--cor-terciaria-texto);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -6em;
+    padding: 2em;
+}
+
+.card-subtitulo2 {
+    color: var(--cor-terciaria-texto);
+    font-size: 20px;
+    padding: 1.4em 0 5em 0;
+}
+
+.new__card__descricao2 {
+    color: var(--cor-terciaria-texto);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -7em;
+    padding: 2em;
+}
+
+.criar__conta-3 {
+   margin-top: 1em;
+    padding-left: 7em;
+}
+
+.criar__conta__botao-3 {
+    background-color: var(--background-color);
+    color: var(--cor-principal);
+}

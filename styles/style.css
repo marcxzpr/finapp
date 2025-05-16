@@ -3,15 +3,18 @@
 @import url('/styles/cabecalho.css');
 @import url('banner.css');
 @import url('bloco__exemplo.css');
+@import url('card.css');
+@import url('footer.css');
 
 :root {
-    --backgorund-color: #F2F2F7;
+    --background-color: #F2F2F7;
     --cor-principal: #4747D7;
     --cor-principal-texto: #000000;
     --cor-secundaria-texto: #5C5A5A;
     --cor-terciaria-texto: #FFFFFF;
     --cor--quartenaria-borda: #D9D9D9;
     
+    --cor-para-card: #DAD9D9;
     --fonte: "Inter", sans-serif;
 }
 

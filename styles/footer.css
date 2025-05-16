@@ -1,0 +1,25 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finapp__logo2 {
+    margin-top: -6em;
+}
+
+.redes__sociais {
+    padding: 0.8em;
+    padding-left: 5em;
+    font-weight: 700;
+}
+
+.imagens__rodape {
+    display: flex;
+    margin: 2em;
+    margin-left: -9em;    
+    margin-top: -1.5em;
+}
+
+.logo__lista {
+     justify-content: flex-start;
+}

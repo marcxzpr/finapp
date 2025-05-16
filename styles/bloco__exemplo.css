@@ -1,5 +1,5 @@
 .container__bloco {
-    background-color: #FFFFFF;
+    background-color: var(--cor-terciaria-texto);
     margin: 1em;
     height: 36vh;
     border-radius: 25px;
